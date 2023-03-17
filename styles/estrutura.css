@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  /*! width: 250px; */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+  margin: 0;
+}
+
+#corpo {
+  margin: 0 8vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+
+#logo-principal {
+  display: flex;
+  align-items: center;
+}
+
+#logo-principal img {
+  margin-right: 1em;
+}
+
+#nav_links {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+
+#logon a {
+  margin-left: 1rem;
+}
+
+#cadastrar {
+  padding: .6rem .8rem;
+  border-radius: 8px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header#cabecalho {
+  justify-content: center;
+  height: 55vh;
+  padding: 0 15%;
+}
+
+.subtit {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2, h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+#metricas {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10vh;
+  height: 40vh;
+  margin-bottom: 64px;
+}
+
+#metricas h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+#metricas h3 {
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+section#vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 72px;
+}
+
+#vagas .subtit {
+  padding: 0.2em .8em;
+  border-radius: 50px;
+}
+
+#vagas h2 {
+  font-size: 2.5rem;
+}
+
+#vagas img {
+  margin: 4rem 0;
+  width: 100%;
+}
+
+#vagas-abertas {
+  width: 50vw;
+}
+
+.espec-vaga {
+  border: 1px solid;
+  margin-bottom: 32px;
+  padding: 1.2em;
+  padding-top: 0;
+  border-radius: 15px;
+}
+
+.espec-vaga p {
+  display: inline-block;
+}
+
+.espec-vaga p:first-of-type {
+  margin-right: 32px;
+}
+
+#depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8%;
+  margin-bottom: 128px;
+  border-radius: 50px;
+}
+
+#depoimentos img {
+  width: 60px;
+}
+
+#depoimentos h5 {
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+footer {
+  padding: 60px 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email {
+  display: inline-flex;
+  margin: 1rem;
+}
+
+#email input {
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+#email input[type=email] {
+  width: 300px;
+  padding: 12px;
+  padding-right: 16px;
+  border: 1px solid;
+  margin-right: 1rem;
+}
+
+#email input[type=submit] {
+  padding: 0 1.2rem;
+}
+
+#copy {
+  margin-top: 50px;
+}

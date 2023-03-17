@@ -1,0 +1,54 @@
+:root {
+    --cor-destaque: #8E2424;
+    --bg-vinho: rgba(196, 25, 25, 0.06);
+    --bg-cinza: #F9FAFB;
+    --borda: #dcdfe4;
+    --sombra: #1018283D;
+}
+
+#cadastrar {
+    background-color: var(--cor-destaque);
+    color: white;
+    box-shadow: 0px 1px 15px var(--sombra);
+}
+
+.subtit {
+    color: var(--cor-destaque);
+}
+
+#metricas h2 {
+    color: var(--cor-destaque);
+}
+
+#vagas .subtit{
+    background-color: var(--bg-vinho);
+}
+
+.espec-vaga {
+    border-color: var(--borda);
+}
+
+#depoimentos {
+    background-color: var(--bg-vinho);
+}
+
+footer {
+    background-color: var(--bg-cinza);
+}
+
+#email input {
+    border-color: var(--borda);
+}
+
+#email input[type=email]:focus {
+    outline: 2px solid var(--cor-destaque);
+}
+
+#email input[type=submit] {
+    background-color: var(--cor-destaque);
+    color: white;
+}
+
+#copy {
+    color: #b2b2b2;
+}
