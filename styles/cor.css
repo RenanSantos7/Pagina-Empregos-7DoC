@@ -1,9 +1,32 @@
 :root {
+    --bg: white;
+    --texto: black;
     --cor-destaque: #8E2424;
     --bg-vinho: rgba(196, 25, 25, 0.06);
     --bg-cinza: #F9FAFB;
     --borda: #dcdfe4;
     --sombra: #1018283D;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --bg: #2e2e2e;
+        --texto: #fafafa;
+        --cor-destaque: #e43e3e;
+        --bg-vinho: rgba(196, 25, 25, 0.199);
+        --bg-cinza: #383838;
+        --borda: #56575a;
+        --sombra: #1018283D;
+    }
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--texto);
+}
+
+a {
+    color: inherit;
 }
 
 #cadastrar {
@@ -36,12 +59,14 @@ footer {
     background-color: var(--bg-cinza);
 }
 
-#email input {
-    border-color: var(--borda);
+#email input[type=email] {
+    border: 1px solid var(--borda);
+    background-color: var(--bg-cinza);
 }
 
 #email input[type=email]:focus {
     outline: 2px solid var(--cor-destaque);
+    background-color: var(--bg);
 }
 
 #email input[type=submit] {
